@@ -7,7 +7,7 @@ from firebase_admin import credentials
 from firebase_admin import db
 
 # Firebase bağlantısını kurma
-cred = credentials.Certificate('starraiders.json')
+cred = credentials.Certificate('credentials.json')
 firebase_admin.initialize_app(cred, {
     'databaseURL': 'your-database-name.firebaseio.com/'#Firebase URL'inizi yazın.
 })
