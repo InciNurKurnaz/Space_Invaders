@@ -9,7 +9,7 @@ from firebase_admin import db
 # Firebase bağlantısını kurma
 cred = credentials.Certificate('starraiders.json')
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://starraiders-5ce09-default-rtdb.europe-west1.firebasedatabase.app/'
+    'databaseURL': 'your-database-name.firebaseio.com/'
 })
 
 # Skoru kaydetme fonksiyonu
